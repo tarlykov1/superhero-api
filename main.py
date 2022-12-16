@@ -1,6 +1,5 @@
 import requests
 
-
 def main():
     url = 'https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api'
     heroes = requests.get(url=url + '/all.json', headers={'Content-Type': 'application/json; charset=utf-8'})
